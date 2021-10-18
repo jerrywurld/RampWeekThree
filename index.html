@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="form-container">
+      <form class="form" action="">
+        <div class="form-fill">
+          <label>Name</label>
+          <input type="text" autocomplete="name" required />
+        </div>
+
+        <div class="form-fill">
+          <label>Email</label>
+          <input type="text" required />
+        </div>
+
+        <div class="date-content">
+          <label class="pick-date">Pick a date</label>
+          <select class="selected">
+            <option disabled="disabled" selected="selected">MM</option>
+            <option>Janaury</option>
+            <option>February</option>
+            <option>March</option>
+          </select>
+
+          <select class="selected">
+            <option disabled="disabled" selected="selected">DD</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+
+          <select class="selected">
+            <option disabled="disabled" selected="selected">YYYY</option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+          </select>
+        </div>
+
+        <div class="time-content">
+          <label class="pick-time">Pick a time</label>
+
+          <select class="selected">
+            <option>01</option>
+            <option>02</option>
+            <option>03</option>
+          </select>
+
+          <select class="selected">
+            <option>00</option>
+            <option></option>
+          </select>
+
+          <select class="seperate" >
+            <option>AM</option>
+            <option>PM</option>
+          </select>
+        </div>
+
+        <div class="creation">
+          <input type="image" src="/icon-minus.svg" id="img-one"/> 
+          <input class="text" value="0 person" name="" id="people"/>
+           <input class="" type="image" src="/icon-plus.svg" id="img-two" />
+        </div>
+        <br />
+
+        <div class="button">
+          <input type="button" value="MAKE RESERVATION" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
